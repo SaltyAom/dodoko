@@ -6,8 +6,18 @@
   "type": "commonjs",
   "main": "index.js",
   "keywords": ["es4x", "vertx", "dodoko"],
-  "author": "",
-  "license": "ISC",
+	"author": {
+		"name": "saltyaom",
+		"url": "https://github.com/SaltyAom",
+		"email": "saltyaom@gmail.com"
+	},
+  "homepage": "https://github.com/saltyaom/dodoko",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saltyaom/dodoko"
+	},
+	"bugs": "https://github.com/SaltyAom/dodoko/issues",
+  "license": "MIT",
   "dependencies": {
     "@vertx/core": "4.2.2"
   },
