@@ -1,7 +1,6 @@
 {
   "name": "dodoko",
   "version": "0.0.0",
-  "private": true,
   "description": "mini http server implemented on top of vert.x",
   "type": "commonjs",
   "main": "build/index.js",
