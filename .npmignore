@@ -1,0 +1,10 @@
+.swc
+build
+build-example
+example
+node_modules
+.gitignore
+.swc.rc
+nodemon.json
+pnpm-lock.yaml
+tsconfig.json

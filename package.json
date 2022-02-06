@@ -1,0 +1,34 @@
+{
+  "name": "dodoko",
+  "version": "0.0.0",
+  "private": true,
+  "description": "mini http server implemented on top of vert.x",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": ["es4x", "vertx", "dodoko"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vertx/core": "4.2.2"
+  },
+  "devDependencies": {
+    "@es4x/create": "0.16.2",
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.136",
+    "@vertx/unit": "4.2.2",
+    "@vertx/web": "^4.2.4",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@vertx/core": ">= ^4.0.0"
+  },
+  "scripts": {
+    "postinstall": "es4x install",
+    "build": "swc src -d build",
+    "build:example": "swc example -d build-example",
+    "start": "es4x build/index.js",
+    "test": "es4x test index.test.js",
+    "dev": "nodemon --config nodemon.json"
+  }
+}
