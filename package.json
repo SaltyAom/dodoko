@@ -1,6 +1,6 @@
 {
   "name": "dodoko",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "mini http server implemented on top of vert.x",
   "type": "commonjs",
   "main": "build/index.js",
@@ -34,7 +34,7 @@
   },
   "scripts": {
     "postinstall": "es4x install",
-    "build": "swc src -d build",
+    "build": "swc src -d build && tsc",
     "build:example": "swc example -d build-example",
     "start": "es4x build/index.js",
     "test": "es4x test index.test.js",

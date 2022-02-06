@@ -1,6 +1,6 @@
 {
     "restartable": "rs",
     "ignore": [".git", "node_modules/", "build/", "build-example"],
-    "exec": "pnpm build && tsc && pnpm build:example && npx es4x build-example/index.js",
+    "exec": "pnpm build && pnpm build:example && npx es4x build-example/index.js",
     "ext": "js, json, ts"
 }
