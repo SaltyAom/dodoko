@@ -4,7 +4,7 @@
   "private": true,
   "description": "mini http server implemented on top of vert.x",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "build/index.js",
   "keywords": ["es4x", "vertx", "dodoko"],
 	"author": {
 		"name": "saltyaom",
